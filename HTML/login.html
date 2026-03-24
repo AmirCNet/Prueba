@@ -1,16 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            background-color: #b6d4fe;
+            margin: 0;
+        }
+
+        .contenedor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login{
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+    </style>
     <title>Login</title>
 </head>
 <body>
 
-<h1>Iniciar sesion</h1>
+<div class="contenedor">
+    <div class="login">
+        <h1>Iniciar sesión</h1>
 
-<p>Email: <input type="email"></p>
-<p>Contraseña: <input type="password"></p>
+        <p>Email:<br><input type="email"></p>
+        <p>Contraseña:<br><input type="password"></p>
 
-<button>Iniciar sesion</button>
+        <button>Iniciar sesión</button>
+
+    </div>
+
+</div>
 
 </body>
 </html>
